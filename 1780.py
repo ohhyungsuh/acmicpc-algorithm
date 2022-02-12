@@ -32,28 +32,3 @@ for i in range(3):
 
                         
 
-
-
-# def chk(paper):
-#     if all(-1 in p for p in paper):
-#         whatPaper[0] += 1
-#     elif all(0 in p for p in paper):
-#         whatPaper[1] += 1
-#     elif all(1 in p for p in paper):
-#         whatPaper[2] += 1
-#     else:
-#         if len(paper) == 1:
-#             return
-#         else:
-#             slicePaper(paper)
-
-# def slicePaper(paper):
-#     sizeSlicePaper = int(len(paper) / 3)
-#     for i in range(0, len(paper), sizeSlicePaper):
-#         for j in range(0, len(paper), sizeSlicePaper):
-#             slicePaper = paper[i:i+sizeSlicePaper, j:j+sizeSlicePaper]
-#             # chk(slicePaper)
-#             print(slicePaper)
-
-
-
